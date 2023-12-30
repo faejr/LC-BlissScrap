@@ -11,6 +11,7 @@ namespace BlissScrap
         public static ConfigEntry<int> blissySpawnWeight;
         public static ConfigEntry<int> alemSpawnWeight;
         public static ConfigEntry<int> gbaSpawnWeight;
+        public static ConfigEntry<int> swallowbugSpawnWeight;
 
         public static ConfigFile VolumeConfig;
 
@@ -21,6 +22,7 @@ namespace BlissScrap
             blissySpawnWeight = Plugin.config.Bind<int>("Scrap", "blissy", 10, "How much does blissy spawn higher = more common");
             alemSpawnWeight = Plugin.config.Bind<int>("Scrap", "alem", 10, "How much does alem spawn higher = more common");
             gbaSpawnWeight = Plugin.config.Bind<int>("Scrap", "gba", 10, "How much does GBA spawn higher = more common");
+            swallowbugSpawnWeight = Plugin.config.Bind<int>("Scrap", "swallowbug", 10, "How much does swallowbug spawn higher = more common");
 
             VolumeConfig = new ConfigFile(Paths.ConfigPath + "\\BlissCorp.AudioVolume.cfg", true);
         }

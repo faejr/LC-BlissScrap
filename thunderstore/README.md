@@ -2,6 +2,9 @@
 
 Adds various scraps based on our discord server, iykyk
 
+### 0.4.0
+* Add swallowbug
+
 ### 0.3.0
 * Add GBA
 ![GBA](https://i.imgur.com/un5zDoG.jpg)

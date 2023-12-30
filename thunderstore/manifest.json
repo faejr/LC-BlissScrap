@@ -1,9 +1,9 @@
 {
   "name": "BlissScrap",
-  "version_number": "0.3.0",
+  "version_number": "0.4.0",
   "website_url": "https://github.com/faejr/LC-BlissScrap",
   "description": "Various new scrap created for our discord server",
   "dependencies": [
-    "Evaisa-LethalLib-0.8.0"
+    "Evaisa-LethalLib-0.9.0"
   ]
 }

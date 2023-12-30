@@ -13,7 +13,7 @@ namespace BlissScrap
     {
         public const string ModGUID = "faejr.blissscrap";
         public const string ModName = "BlissScrap";
-        public const string ModVersion = "0.3.0";
+        public const string ModVersion = "0.4.0";
 
         public static ManualLogSource logger;
         public static ConfigFile config;
@@ -40,6 +40,7 @@ namespace BlissScrap
             SetupAsset("assets/custom/scrap/blissy/blissy.asset", BlissScrap.Config.blissySpawnWeight.Value);
             SetupAsset("assets/custom/scrap/alem/alem.asset", BlissScrap.Config.alemSpawnWeight.Value);
             SetupAsset("assets/custom/scrap/gba/gba.asset", BlissScrap.Config.gbaSpawnWeight.Value);
+            SetupAsset("assets/custom/scrap/swallowbug/swallowbug.asset", BlissScrap.Config.swallowbugSpawnWeight.Value);
 
             Logger.LogInfo($"Plugin {ModName} is loaded!");
         }
