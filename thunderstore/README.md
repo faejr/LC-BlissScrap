@@ -2,6 +2,9 @@
 
 Adds various scraps based on our discord server, iykyk
 
+### 0.4.1
+* Fix bug with network objects
+
 ### 0.4.0
 * Add swallowbug
 

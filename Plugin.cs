@@ -13,7 +13,7 @@ namespace BlissScrap
     {
         public const string ModGUID = "faejr.blissscrap";
         public const string ModName = "BlissScrap";
-        public const string ModVersion = "0.4.0";
+        public const string ModVersion = "0.4.1";
 
         public static ManualLogSource logger;
         public static ConfigFile config;
