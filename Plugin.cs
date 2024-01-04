@@ -10,6 +10,7 @@ namespace BlissScrap
 {
     [BepInPlugin(ModGUID, ModName, ModVersion)]
     [BepInDependency(LethalLib.Plugin.ModGUID)]
+    [BepInDependency("evaisa.lethalthings", BepInDependency.DependencyFlags.SoftDependency)]
     public class Plugin : BaseUnityPlugin
     {
         public const string ModGUID = "faejr.blissscrap";
@@ -42,6 +43,9 @@ namespace BlissScrap
             SetupAsset("assets/custom/scrap/alem/alem.asset", BlissScrap.Config.alemSpawnWeight.Value);
             SetupAsset("assets/custom/scrap/gba/gba.asset", BlissScrap.Config.gbaSpawnWeight.Value);
             SetupAsset("assets/custom/scrap/swallowbug/swallowbug.asset", BlissScrap.Config.swallowbugSpawnWeight.Value);
+            if (BepInEx.Bootstrap.Chainloader.PluginInfos.ContainsKey("evaisa.lethalthings")) {
+                SetupAsset("assets/custom/scrap/dani ball/TennisBall.asset", BlissScrap.Config.swallowbugSpawnWeight.Value);
+            }
 
             Logger.LogInfo($"Plugin {ModName} is loaded!");
         }
