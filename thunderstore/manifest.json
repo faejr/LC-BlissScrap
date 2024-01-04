@@ -1,6 +1,6 @@
 {
   "name": "BlissScrap",
-  "version_number": "0.4.1",
+  "version_number": "0.5.0",
   "website_url": "https://github.com/faejr/LC-BlissScrap",
   "description": "Various new scrap created for our discord server",
   "dependencies": [
