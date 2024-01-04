@@ -1,9 +1,10 @@
-﻿using BepInEx;
+using BepInEx;
 using BepInEx.Logging;
 using BepInEx.Configuration;
 using UnityEngine;
 using System.Reflection;
 using System.IO;
+using BlissScrap.MonoBehaviours;
 
 namespace BlissScrap
 {
